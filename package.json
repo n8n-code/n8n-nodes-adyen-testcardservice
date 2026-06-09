@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-adyen-testcardservice",
-  "version": "1.0.0",
-  "description": "Test Cards API provides endpoints for generating custom test card numbers. For more information, refer to [Custom test cards](https://docs.adyen.com/development-resources/testing/create-test-ca..",
+  "version": "1.0.1",
+  "description": "Test Cards API generates custom test card numbers. See [Custom test cards](https://docs.adyen.com/development-resources/testing/create-test-ca..",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-adyen-testcardservice",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "adyen-testcardservice"

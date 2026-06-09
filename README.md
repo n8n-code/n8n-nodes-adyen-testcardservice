@@ -53,9 +53,12 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| General | Post creates one or more test card ranges |
+<details>
+<summary><b>General</b> (1 operations)</summary>
+
+- Post Creates one or more test card ranges
+
+</details>
 
 ---
 

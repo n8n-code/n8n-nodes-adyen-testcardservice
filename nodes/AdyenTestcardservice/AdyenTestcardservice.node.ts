@@ -3,14 +3,14 @@ import { generalDescription } from './resources/general';
 
 export class AdyenTestcardservice implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'adyen-testcardservice',
+		displayName: 'Adyen Testcardservice',
 		name: 'N8nDevAdyenTestcardservice',
 		icon: { light: 'file:./adyen-testcardservice.svg', dark: 'file:./adyen-testcardservice.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Test Cards API provides endpoints for generating custom test card numbers. For more information, refer to [Custom test cards](https://docs.adyen.com/development-resources/testing/create-test-ca..',
-		defaults: { name: 'adyen-testcardservice' },
+		description: 'Test Cards API generates custom test card numbers. See [Custom test cards](https://docs.adyen.com/development-resources/testing/create-test-ca..',
+		defaults: { name: 'Adyen Testcardservice' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

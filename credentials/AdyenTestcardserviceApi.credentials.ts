@@ -8,7 +8,7 @@ import type {
 export class AdyenTestcardserviceApi implements ICredentialType {
 	name = 'N8nDevAdyenTestcardserviceApi';
 
-	displayName = 'adyen-testcardservice API';
+	displayName = 'Adyen Testcardservice API';
 
 	icon: Icon = { light: 'file:../nodes/AdyenTestcardservice/adyen-testcardservice.svg', dark: 'file:../nodes/AdyenTestcardservice/adyen-testcardservice.dark.svg' };
 
@@ -22,7 +22,7 @@ export class AdyenTestcardserviceApi implements ICredentialType {
 			default: 'https://pal-test.adyen.com/pal/services/TestCard/v1',
 			required: true,
 			placeholder: 'https://pal-test.adyen.com/pal/services/TestCard/v1',
-			description: 'The base URL of your adyen-testcardservice API server',
+			description: 'The base URL of your Adyen Testcardservice API server',
 		},
 		{
 			displayName: 'API Key',
